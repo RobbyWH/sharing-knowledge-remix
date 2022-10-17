@@ -54,7 +54,7 @@ npx create-remix@latest
 
 # Data Loading
 
-```ts {1-5|7-21|all} {maxHeight:'100'}
+```ts {1-5|7-27|all} {maxHeight:'100'}
 export async function loader() {
   return json({
     dictionaries: await getDictionaryList(),

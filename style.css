@@ -39,3 +39,7 @@ html:not(.dark) {
   background-color: white;
   color: black
 }
+
+.slidev-code {
+  max-height: 380px !important;
+}
