@@ -1,7 +1,7 @@
 ---
 theme: bricks
 layout: intro
-highlighter: shiki
+highlighter: prism
 lineNumbers: true
 colorSchema: auto
 ---
