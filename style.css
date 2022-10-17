@@ -1,3 +1,6 @@
+@import "prism-theme-vars/base.css";
+@import "prism-theme-vars/themes/vitesse-dark.css";
+
 h1 {
   background-color: #2B90B6;
   background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
@@ -6,23 +9,4 @@ h1 {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-}
-
-html:not(.dark) {
-  --prism-foreground: #d4d4d4;
-  --prism-background: #1e1e1e;
-
-  --prism-namespace: #aaaaaa;
-  --prism-comment: #758575;
-  --prism-namespace: #444444;
-  --prism-string: #ce9178;
-  --prism-punctuation: #d4d4d4;
-  --prism-literal: #36acaa;
-  --prism-keyword: #38a776;
-  --prism-function: #dcdcaa;
-  --prism-deleted: #9a050f;
-  --prism-class: #4ec9b0;
-  --prism-builtin: #d16969;
-  --prism-property: #ce9178;
-  --prism-regex: #ad502b;
 }
