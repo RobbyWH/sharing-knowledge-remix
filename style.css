@@ -34,3 +34,8 @@ html:not(.dark) {
   --prism-line-highlight-background: #444444;
   --prism-selection-background: #444444;
 }
+
+.slidev-icon {
+  background-color: white;
+  color: black
+}
