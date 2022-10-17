@@ -8,7 +8,7 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 
-:root {
+html:not(.dark) {
   --prism-scheme: dark;
   --prism-foreground: #d4cfbf;
   --prism-background: #1e1e1e;
