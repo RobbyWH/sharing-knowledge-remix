@@ -2,6 +2,8 @@
 theme: bricks
 layout: intro
 highlighter: shiki
+lineNumbers: true
+colorSchema: auto
 ---
 
 # Remix
