@@ -124,9 +124,49 @@ export default function DictionaryDetailPage () {
 
 # Mutations
 
+```ts {1-5|1-5,8|1-5,8,19|1-5|1-5,9-10|1-5,9-10,20-25}
+export async function action({ request }) {
+  const body = await request.formData();
+  const name = body.get("visitorsName");
+  return json({ message: `Hello, ${name}` });
+}
+
+export default function Invoices() {
+  const data = useActionData();
+  const transition = useTransition();
+  const isCreating = transition.submission?.formData.get("intent") === "create";
+  return (
+    <Form method="post">
+      <p>
+        <label>
+          What is your name?
+          <input type="text" name="visitorsName" />
+        </label>
+      </p>
+      <p>{data ? data.message : "Waiting..."}</p>
+      <button
+        type="submit"
+        name="intent"
+        value="create"
+        disabled={isCreating}
+      >
+    </Form>
+  );
+}
+```
+
 ---
 
 # Prefetching
+
+```ts
+<>
+  <Link /> {/* defaults to "none" */}
+  <Link prefetch="none" />
+  <Link prefetch="intent" />
+  <Link prefetch="render" />
+</>
+```
 
 ---
 
