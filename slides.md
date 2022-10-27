@@ -159,7 +159,7 @@ export default function Invoices() {
 
 # Prefetching
 
-```ts
+```ts {2|3|4|5}
 <>
   <Link /> {/* defaults to "none" */}
   <Link prefetch="none" />
