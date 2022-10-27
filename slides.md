@@ -109,16 +109,18 @@ export default function DictionaryDetailPage () {
 ```
 
 ---
+layout: center
+class: text-center
+---
 
 # Routing
 
-<div class="m-6 flex gap-2">
+<div class="m-6 justify-center">
   <a href="https://remix-routing-demo.netlify.app/" target="_blank" alt="Remix Routing"
     class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-application-web class="text-5xl animate-ping" />
   </a>
 </div>
-
 
 ---
 
@@ -212,6 +214,12 @@ class: text-center
 ---
 
 # CSR vs SSR vs SSG vs ISR
+<div class="m-6 justify-center">
+  <a href="https://excalidraw.com/#json=S4nG9jYvzWpne376xY5qj,s70y6yhOlND92gFk5TDmqQ" target="_blank" alt="Remix Routing"
+    class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
+    <carbon-application-web class="text-5xl animate-ping" />
+  </a>
+</div>
 
 ---
 layout: center
