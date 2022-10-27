@@ -204,4 +204,25 @@ layout: center
 class: text-center
 ---
 
+# State Management in Remix
+
+---
+layout: center
+class: text-center
+---
+
+# CSR vs SSR vs SSG vs ISR
+
+---
+layout: center
+class: text-center
+---
+
+# HTTP Caching
+
+---
+layout: center
+class: text-center
+---
+
 # Thank You
